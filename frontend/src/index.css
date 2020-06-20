@@ -178,7 +178,7 @@
     background-color: #FFFFFF;
     color: #000000;
     border:4px solid #000000;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .btn-primary:hover{
@@ -196,6 +196,10 @@
     grid-template-rows: 0.5fr 1fr;
     grid-template-columns: 1fr 1fr 0.10fr 1fr;
     margin-bottom: 100px;
+}
+
+.single-vod-mobile{
+    display: none;
 }
 
 .vod{

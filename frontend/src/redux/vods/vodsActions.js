@@ -8,7 +8,7 @@ export const getVodById = id => async dispatch => {
 
         axios({
             method: 'get',
-            url: `api/v1/search/id/${id}`,
+            url: `/api/v1/search/id/${id}`,
         })
             .then(function (response) {
                 dispatch({

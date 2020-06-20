@@ -10,8 +10,9 @@ const Help = ({loadUser}) => {
     return(
         <div className="help-page">
         <h1>Help</h1>
-        <p>If you spot any bugs or have suggestions, please contact me: Edgar@decahex.com</p>
+        <p>If you spot any bugs or have suggestions, please contact me: <a href="mailto:Edgar@decahex.com">Edgar@decahex.com</a></p>
         <p>The code for this website is found here </p>
+        <a href="https://github.com/chocoguy/Elstreamer">Code</a>
     </div>
     )
 }
