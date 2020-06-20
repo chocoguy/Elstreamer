@@ -6,7 +6,7 @@ import { GET_VOD_BY_ID, GET_VODS, SEARCH_FOR_VOD, SEARCH_FOR_VOD_TYPE, GET_VOD_E
 export const getVodById = id => async dispatch => {
     try{
 
-        await axios({
+        axios({
             method: 'get',
             url: `api/v1/search/id/${id}`,
         })
